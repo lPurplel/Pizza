@@ -4,7 +4,7 @@ body {
     font-family: "Marck Script", cursive;
     font-weight: 400;
     font-style: normal;
-    background-image: url(/images/menu.webp);
+    background-image: url(../../images/menu.webp);
     background-position: center;
     background-size: cover;
     height: 100%;
@@ -22,7 +22,7 @@ body {
     margin: 100px 150px 10% 10%;
     display: grid;
     place-items: center;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
     gap: 50px;
 }
 
@@ -43,17 +43,23 @@ body {
     color: aliceblue;
 }
 
-.Home {
-    font-size: 15px;
-    text-align: left;
-    color: aliceblue;
-    margin-top: 20%;
+.back button {
+    background-color: #6f6f6f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+    border-radius: 10%;
+}
+
+.back button:hover {
+    background-color: black;
 }
 
 a {
     text-decoration: none;
-}
-
-.Home a{
-    color: aliceblue;
 }

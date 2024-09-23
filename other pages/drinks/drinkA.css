@@ -39,7 +39,7 @@ p {
     font-size: larger;
 }
 
-button {
+div.order button {
     background-color: #4CAF50;
     border: none;
     color: black;
@@ -51,8 +51,26 @@ button {
     border-radius: 10%;
 }
 
-button:hover {
+div.order button:hover {
     background-color: #3d8b3f;
+}
+
+.back button {
+    background-color: #6f6f6f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+    border-radius: 10%;
+}
+
+.back button:hover {
+    background-color: black;
 }
 
 a {
